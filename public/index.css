@@ -1,0 +1,97 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./assets/background.png');
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.app-container {
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 700px;
+    background-color: rgba(24, 52, 214, 0.4);
+    border-radius: 25px;
+}
+
+.city-input {
+    padding: 7px;
+    margin-right: 2%;
+    margin-top: 3%;
+    margin-left: 6%;
+    border-radius: 7px;
+    border-style: none;
+}
+
+.state-input {
+    padding: 7px;
+    border-radius: 7px;
+    margin-right: 2%;
+    border-style: none;
+}
+
+.button-input {
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:7px;
+	border: none;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+    padding:6px 12px;
+}
+
+.today {
+    margin-left: 2%;
+    font-family: "Roboto Condensed";
+    color: white;
+}
+
+.todayLocation {
+    font-size: 40px;
+}
+
+.todayDay {
+    font-size: 25px;
+}
+
+.todayDate {
+    font-size: 20px;
+}
+
+.todayImg {
+    margin-top: -35%;
+    margin-left: 35%;
+    margin-bottom: -10%;
+    height: 60%;
+    width: 60%;
+}
+
+.todayWeather {
+    margin-top: -10%;
+    font-size: 40px;
+    margin-bottom: -3%;
+}
+
+.todayTemp {
+    font-size: 30px;
+    margin-bottom: 7%;
+}
+
+.card-item {
+    border: solid 1px;
+    width: fit-content;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-color: white;
+    color: white;
+    font-family: "Roboto Condensed";
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: inline-block;
+    text-align: center;
+}
